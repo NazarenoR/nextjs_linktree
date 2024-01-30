@@ -44,7 +44,7 @@ export default function Home() {
 								size="sm"
 							
 							>
-								Football
+								Soccer
 							</Chip>
 							<Chip 
 								variant="shadow"
@@ -52,15 +52,42 @@ export default function Home() {
 								size="sm"
 							
 							>
-								Não Sei
+								Canada
 							</Chip>
 						</div>
 						<div className="flex justify-center max-w-sm">
 							<p className="text-lg text-center font-semibold">
-								This is a random paragraph. Raf is a frontend web developer. 
+								Web Developer. Lethbridge College Alumni.
 
 							</p>
 						
+						</div>
+						<div className="flex flex-col justify-center gap-4 pt-4">
+							  <a href="https://rafthedev.com/" target="_blank">
+								<Card className="w-full" isHoverable>
+									<CardBody className="p-3">
+										<h3 className="self-center text-lg">My Website</h3>
+									</CardBody>
+								</Card>
+							  </a>
+						</div>
+						<div className="flex flex-col justify-center gap-4 pt-4">
+							  <a href="https://github.com/NazarenoR" target="_blank">
+								<Card className="w-full" isHoverable>
+									<CardBody className="p-3">
+										<h3 className="self-center text-lg">GitHub</h3>
+									</CardBody>
+								</Card>
+							  </a>
+						</div>
+						<div className="flex flex-col justify-center gap-4 pt-4">
+							  <a href="https://www.linkedin.com/in/rafaelnazareno/" target="_blank">
+								<Card className="w-full" isHoverable>
+									<CardBody className="p-3">
+										<h3 className="self-center text-lg">LinkedIn</h3>
+									</CardBody>
+								</Card>
+							  </a>
 						</div>
 						<div className="flex flex-col justify-center gap-4 pt-4">
 							  <a href="https://www.youtube.com/channel/UC2u1aV7BM0aHhQ4ABEgfsVQ" target="_blank">
